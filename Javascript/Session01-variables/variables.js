@@ -54,7 +54,7 @@ console.log("The result is: " + result); // string concatenation
 
 // template literals
 let firstName = "John-Paul";
-let lastName = "Wayne";
+let lastName = "Smith";
 let age = 30;
 let greeting = `Hello, my name is ${firstName} ${lastName} and I am ${age} years old.`;
 console.log(greeting); // Output: Hello, my name is John-Paul Wayne and I am 30 years old.
