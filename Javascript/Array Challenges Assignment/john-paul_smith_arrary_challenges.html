@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <style>
+            code{
+                font-size: larger;
+            }
+
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    margin: 0;
+                    padding: 20px;
+                }
+                h1 {
+                    color: #333;
+                }
+                form {
+                    margin-top: 20px;
+                }
+                input[type="text"] {
+                    padding: 10px;
+                    width: 200px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+
+                button {
+                    padding: 10px 15px;
+                    background-color: #28a745;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                button:disabled {
+                    background-color: #ccc;
+                    cursor: not-allowed;
+                }
+                button:hover {
+                    background-color: #218838;
+                }
+                form {
+                    position:absolute; 
+                    top:200px; 
+                    left:100px;  
+                    border:1px solid #000; 
+                    padding:10px;
+                    overflow:auto;
+                    transition: border .35s ease-in-out,  top .35s ease-in-out;
+                }    
+                form:hover {
+                    border:10px solid #f00; 
+                }          
+        </style>
+    </head>
+    <body>
+        <p>Following is made by a <code>document.write()</code> call from JavaScript:</p>
+        <h1><script>document.write("Please Complete the Form!");</script></h1>
+        <p>This form uses javascript to ensure the input are validated:</p>
+        <form name="myForm" id="myForm" action=".">
+            <div>
+                <button type="button" onclick="moveDown(); return false;">Move Down</button>
+                <button onclick="return addItem();">Add Item</button>  
+            </div>
+            <div>            
+                <input type="text" id="input" placeholder="Enter a number &gt; 5" onkeyup="validateForm();" />
+                <div id="validationError" style="color: red; display:none;">Validation Failure Message</div>
+            </div>
+                <div>
+                    <select id="myList" style="width:200px;" size="10"></select>
+                </div>
+      
+            <div>
+                <button type="button" id="submit" onclick="return validateForm();" disabled>Submit</button>
+                </div>
+            <div></div>
+        </form>
+    </body>
+    <script>
+        var minimumNumber =5;
+
+        function validateForm() {
+            let btn = document.getElementById("submit");
+            let message = document.getElementById("validationError");
+            let x = document.forms["myForm"]["input"].value;
+            if (isNaN(x) || x< minimumNumber) {
+                btn.disabled = true;
+                if(isNaN(x)){
+                    message.innerHTML="Please enter a number";}
+                else {
+                    message.innerHTML=`Please enter a number &gt; ${minimumNumber}`;
+                }
+                message.style.display = "block";
+                return false;
+            }  else{
+                btn.disabled = false;
+                message.style.display = "none";                
+                return true;
+            }
+        }
+        function addItem() {
+            var myList = document.getElementById("myList");
+            var option = document.createElement("option");
+            option.text = "Item " + (myList.length + 1);
+            myList.add(option);
+            return false;
+        }
+
+        function moveDown(){
+            var myForm = document.getElementById("myForm");
+            var lbStyle = window.getComputedStyle(myForm);
+            var topValue = lbStyle.getPropertyValue("top").replace("px", "");
+            myForm.style.top = (Number(topValue) + 20) + "px";
+        }
+    </script>
+</html>
