@@ -30,14 +30,12 @@ console.log(message);
 */
 
 // challenges //////////////////////////////////////////////////////////////////////////
-var number = 5;
-
+var number = 5; // used by challenges 1,2,3
 // 1. write a function tht calculates the area of a rectangle
 function areaOfRectangle(length, width) {
     return length * width;
 }
 console.log(`Area = ${areaOfRectangle(number, number * 2)}`);
-
 // 2. create a function that checks if a number i odd or even
 function isOddOrEven(number) {
     if (number % 2 === 0) {
@@ -47,7 +45,6 @@ function isOddOrEven(number) {
     }
 }
 console.log(isOddOrEven(number)); 
-
 // 3. you must create two functions, convert the degree in Fahrenheit to Celsius
 function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;

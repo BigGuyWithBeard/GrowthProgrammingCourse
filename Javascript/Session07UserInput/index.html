@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./main.css" rel="stylesheet">
+    <title>Input Output</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enter Your Info</h1>
+    
+        <!-- <div>
+            <p id="displayOutput"></p>
+        </div> -->
+
+        <form id="myForm" >
+            <label for="username">Username (required, min 3 characters):</label>
+            <input type="text" id="username" name="username" minlength="3" required>
+            <br>
+            <label for="password">Password (required, min 6 characters):</label>
+            <input type="password" id="password" name="password" minlength="5" required>
+            <br>
+            <button type="submit" id="submit" disabled>Submit</button>
+        </form>
+        <button id="open-new-tab">Open New Tab</button>
+    </div>
+    <script src="./jpInputOutput.js"></script>
+</body>
+  
+</html>
