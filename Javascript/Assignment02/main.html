@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./main.css" rel="stylesheet">
+    <title>Javascript Assignment 2</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="formContainer">
+            <h1><script>document.write("Please enter your info");</script></h1>
+
+            <form id="myForm" >
+                <div class="namecontainer">
+                    <label for="name">Your Name (required, min 3 characters):</label>
+                    <input type="text" id="name" name="name" minlength="3" required value="111111111111111">                
+                </div>
+                <div class="agecontainer">
+                    <label for="age">age (required, integers, min 16, max 99):</label>
+                    <input type="numeric" id="age" name="age" min="16" max="99" step="0" pattern="[0-9]{2}" required value="22">                
+                </div>
+                <div class="messagecontainer">
+                    <label for="message">Explain how JavaScript is used as a web programming language (required, min 6 characters):</label>
+                    <textarea type="message" id="message" name="message" minlength="5" required>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+                </div>       
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="displayContainer">
+            <h1><script>document.write("Here is what you gave me")</script></h1>
+            Your Name: <div id="nameDisplay"></div><br>
+            Your Age: <div id="ageDisplay"></div><br>
+            Explain how JavaScript is used as a web programming language: <div id="messageDisplay"></div><br>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+  
+</html>

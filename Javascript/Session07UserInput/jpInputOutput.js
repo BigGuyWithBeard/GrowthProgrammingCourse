@@ -1,12 +1,26 @@
 const form = document.getElementById('myForm');
+const userInput = document.getElementById('username');
+const submitButton = document.getElementById('submit');
+const userName = document.getElementById('username');
+const passwordInput = document.getElementById('password');
 
-let userInput = document.getElementById('username');
-let submitButton = document.getElementById('submit');
-let userName = document.getElementById('username');
-
-
+// add event listeners
+document.getElementById('open-new-tab').addEventListener('click', function() {
+    openNewWindow();
+});
 form.addEventListener('submit', function(event) {
-    // reinstate the default action of the form submission handler
+    submitForm(event);
+});
+userInput.addEventListener('input', function() {
+    validateUserName();
+});
+passwordInput.addEventListener('input', function() {
+    validatePassword();
+});
+
+
+// event handlers:
+function submitForm(event){
     if(!form.checkValidity()) {
         event.preventDefault();
         form.reportValidity();
@@ -14,8 +28,7 @@ form.addEventListener('submit', function(event) {
         alert("form submitted");
         clearInputs();
     }
-});
-
+}
 function disableSubmitToggle(){
 
     if(form.checkValidity()){;
@@ -24,20 +37,16 @@ function disableSubmitToggle(){
         submitButton.setAttribute('disabled', true);    
     }   
 }
-
-userInput.addEventListener('input', function() {
-    if(userInput.value.length < 3){
+function validateUserName() {
+        if(userInput.value.length < 3){
         userInput.setCustomValidity('too short... 3 characters minimum. Gimmme MORE!');
     } else {
         userInput.setCustomValidity('');
     }
     userInput.reportValidity();
     disableSubmitToggle();
-});
-
-
-let passwordInput = document.getElementById('password');
-passwordInput.addEventListener('input', function() {
+};
+function validatePassword() {
     if(passwordInput.value.length < 6){
         passwordInput.setCustomValidity('Password is too short. 6 characters minimum. Gimmme MORE!');
     } else {
@@ -45,10 +54,15 @@ passwordInput.addEventListener('input', function() {
     }
     passwordInput.reportValidity();
     disableSubmitToggle();  
-});
+}
+function clearInputs() {
+    userInput.value = '';
+    passwordInput.value = '';
+    disableSubmitToggle();
+}
 
-
-document.getElementById('open-new-tab').addEventListener('click', function() {
+// other functions
+function openNewWindow(){
 
     let message = !userName.value ? 'no user name': 'Hello ' + userName.value + '!';
     let newWindow = window.open('', '_blank');
@@ -71,13 +85,5 @@ document.getElementById('open-new-tab').addEventListener('click', function() {
     `);
     newWindow.focus();
     newWindow.document.close();
-});
+};
 
-
-    
-    
-function clearInputs() {
-    userInput.value = '';
-    passwordInput.value = '';
-    disableSubmitToggle();
-}
