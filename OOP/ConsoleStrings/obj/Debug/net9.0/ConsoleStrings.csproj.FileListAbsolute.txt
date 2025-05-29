@@ -1,0 +1,15 @@
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\bin\Debug\net9.0\ConsoleStrings.exe
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\bin\Debug\net9.0\ConsoleStrings.deps.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\bin\Debug\net9.0\ConsoleStrings.runtimeconfig.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\bin\Debug\net9.0\ConsoleStrings.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\bin\Debug\net9.0\ConsoleStrings.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.AssemblyInfoInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.AssemblyInfo.cs
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.csproj.CoreCompileInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.sourcelink.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\refint\ConsoleStrings.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ConsoleStrings.genruntimeconfig.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consolestrings\obj\Debug\net9.0\ref\ConsoleStrings.dll

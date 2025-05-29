@@ -1,0 +1,15 @@
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\bin\Debug\net9.0\DiceRoller.exe
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\bin\Debug\net9.0\DiceRoller.deps.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\bin\Debug\net9.0\DiceRoller.runtimeconfig.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\bin\Debug\net9.0\DiceRoller.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\bin\Debug\net9.0\DiceRoller.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.AssemblyInfoInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.AssemblyInfo.cs
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.csproj.CoreCompileInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.sourcelink.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\refint\DiceRoller.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\DiceRoller.genruntimeconfig.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\diceroller\obj\Debug\net9.0\ref\DiceRoller.dll

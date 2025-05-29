@@ -1,0 +1,15 @@
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\bin\Debug\net9.0\ConsoleInt.exe
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\bin\Debug\net9.0\ConsoleInt.deps.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\bin\Debug\net9.0\ConsoleInt.runtimeconfig.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\bin\Debug\net9.0\ConsoleInt.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\bin\Debug\net9.0\ConsoleInt.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.AssemblyInfoInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.AssemblyInfo.cs
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.csproj.CoreCompileInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.sourcelink.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\refint\ConsoleInt.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ConsoleInt.genruntimeconfig.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\consoleint\obj\Debug\net9.0\ref\ConsoleInt.dll
