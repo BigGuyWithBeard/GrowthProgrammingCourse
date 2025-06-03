@@ -2,6 +2,16 @@
 // extract elements to variables
 const form = document.getElementById('myForm');
 
+//attach an event handler for help button clicks
+document.getElementById('help').addEventListener('click', () => {
+    //create a new window with some really helpful information.
+    const helpWindow = window.open('', 'Help', 'width=400,height=300');
+    helpWindow.document.write('<h1>Help Information</h1>');
+    helpWindow.document.write('<p>This form collects your name, age, and a message.</p>');
+    helpWindow.document.write('<p>Please fill out all fields before submitting.</p>');
+
+});
+
 // attach an event handler to submit on the form
 form.addEventListener('submit', (event) => submitForm(event));
 

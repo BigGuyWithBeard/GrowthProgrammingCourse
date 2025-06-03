@@ -1,0 +1,15 @@
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\bin\Debug\net9.0\SimpleEcomm.exe
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\bin\Debug\net9.0\SimpleEcomm.deps.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\bin\Debug\net9.0\SimpleEcomm.runtimeconfig.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\bin\Debug\net9.0\SimpleEcomm.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\bin\Debug\net9.0\SimpleEcomm.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.AssemblyInfoInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.AssemblyInfo.cs
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.csproj.CoreCompileInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.sourcelink.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\refint\SimpleEcomm.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\SimpleEcomm.genruntimeconfig.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\oop\Tougher Exercises\SimpleEcomm\obj\Debug\net9.0\ref\SimpleEcomm.dll
