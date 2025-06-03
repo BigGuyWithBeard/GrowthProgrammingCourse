@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Nokia 6110 Simulator</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+
+
+  <div class="content">
+    <div class="container">
+       <h1>Nokia 6110 Simulation</h1>
+          <p>Click the buttons below to simulate the Nokia 6110 phone buttons.</p> 
+
+          <div id="help-container">
+            <button id="toggleButton">Show How To</button>
+            <div id="helpMessage" class="hidden">
+              <p>This is a help message. Click the button to hide this message.</p>
+            </div>
+          </div> 
+    </div>
+  
+
+    <div class="phone-container">
+      <div id="button1" class="phone-button" data-key="button1"></div>
+      <div id="button2" class="phone-button" data-key="button2"></div>
+      <div id="button3" class="phone-button" data-key="button3"></div>
+      <div id="button4" class="phone-button" data-key="button4"></div>
+      <div id="button5" class="phone-button" data-key="button5"></div>
+      <div id="button6" class="phone-button" data-key="button6"></div>    
+      <div id="button7" class="phone-button" data-key="button7"></div>
+      <div id="button8" class="phone-button" data-key="button8"></div>
+      <div id="button9" class="phone-button" data-key="button9"></div>
+      <div id="button0" class="phone-button" data-key="button0"></div>
+
+      <div id="button-call" class="phone-button" data-key="key-call"></div>   
+      <div id="button-hangup" class="phone-button" data-key="key-hangup"></div>   
+        
+    </div>
+
+    
+  </div>   
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
