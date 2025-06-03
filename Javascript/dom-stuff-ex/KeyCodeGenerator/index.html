@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css">
+    <title>KeyCode Generator</title>
+    <style>
+        #container{
+            display:none;
+            border:none;
+        }
+        #container div {
+            font-size: 2em;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            min-height:150px;
+            float: left;
+            width:30%;
+            text-align: center;
+            background-color: salmon;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>KeyCode Generator</h1>
+
+    <div id="container">
+        <div id="eventKey">event.key</div>
+        <div id="eventWhich">event.which</div>
+        <div id="eventCode">event.code</div>        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
