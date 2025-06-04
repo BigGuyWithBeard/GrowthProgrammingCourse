@@ -11,61 +11,111 @@ audioFiles.set("button7", new Audio("./sounds/DTMF7.wav"));
 audioFiles.set("button8", new Audio("./sounds/DTMF8.wav"));   
 audioFiles.set("button9", new Audio("./sounds/DTMF9.wav"));
 audioFiles.set("tone-busy", new Audio("./sounds/tone-busy.wav"));
-audioFiles.set("tone-ringing", new Audio("./sounds/tone-ringing.wav")); 
+audioFiles.set("buttoncall", new Audio("./sounds/tone-ringing.wav")); 
+audioFiles.set("error", new Audio("./sounds/tone-error.wav"))
+const display = document.getElementById("numberdisplay");
 
+var callInProgress=false;
+var callAudio;
 
+function showButtonPress(key){
+        document.getElementById(key).classList.add("pressed");
+        setTimeout(function(){
+            document.getElementById(key).classList.remove("pressed");
+        }, 200);     
+}
+
+function makeCall(){
+   showButtonPress("button-call");
+    if(!callInProgress){
+
+        if( display.innerHTML.length < 5){
+            // too short
+            // play an error noise
+            audioFiles.get("error").play();
+        }else{
+            // cloe enough to a phone number...
+            // dial it
+
+            // pick a random dial or busy tone
+            if (Math.random()> 0.3){
+                callAudio = audioFiles.get("buttoncall");
+                display.innerHTML = "Calling...";                
+            }else{
+                callAudio = audioFiles.get("tone-busy");
+                display.innerHTML = "Busy...";                
+            }
+            callAudio.loop = true;
+            callInProgress = true;
+
+            callAudio.play();
+        }
+
+    }
+}
+
+function stopCall(){
+    showButtonPress("button-hangup");
+
+    if(callInProgress){
+        callAudio.pause();
+        display.innerHTML="";
+        callInProgress=false;
+    }
+}
 
 function buttonPress(key) {
-  
 
-    console.log("Button pressed: " + key);
+    //animate the button
+    showButtonPress(key);
 
-    // play the audio and do the animation
-    audioFiles.get(key).play();
+    // add the number to the display
+    addNumberToDisplay(key);
 
-    //'bump' the button
-    document.getElementById(key).classList.add("pressed");
-
-    setTimeout(function(){
-        document.getElementById(key).classList.remove("pressed");
-    }, 200);
+    // play the associated audio file
+    audioFiles.get(key).play();  
 
 }
 
-// attach event listeners to all elements with the class 'phone-button'
+function addNumberToDisplay(key){
+    var number = key.slice(-1);
+    display.innerHTML = display.innerHTML +  number;
+}
+
+// attach click event listeners to all elements with the class 'phone-button'
 document.querySelectorAll(".phone-button").forEach((element) => {
   switch (element.dataset.key) {
-    /*
-  case x:
-    // code block
-    break;
-  case y:
-    // code block
-    break;
-    */
+    case "buttoncall":
+        element.addEventListener("click", () => {
+            makeCall();
+        });
+        break;
+    case "buttonhangup":
+        element.addEventListener("click", () => {
+            stopCall();
+        });        
+        break;
     default:
-      // use the audio object matching the data-key attribute.
+      // these are the numeric buttons
       element.addEventListener("click", () => {
+        addNumberToDisplay(element.dataset.key);
         buttonPress(element.dataset.key);
       });
-  }
-
+      break;
+    }
 });
 
 // attach events to key presses
 document.addEventListener("keydown", (event) => {
 
-
-// check if the pressed key is a number or a specific key
+    console.log(event.key);
       switch (event.key) {
-    /*
-  case x:
-    // code block
-    break;
-  case y:
-    // code block
-    break;
-    */
+        case "Enter":
+            makeCall();
+            break;
+        case "Escape":
+            stopCall();
+            break;
         case "0":
         case "1":
         case "2":
@@ -79,8 +129,5 @@ document.addEventListener("keydown", (event) => {
             // if the key is a number, play the corresponding audio file
             buttonPress("button" + event.key);
             break;
-  }
-
-
-
+    }
 });

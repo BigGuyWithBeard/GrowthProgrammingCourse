@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 20px;
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
@@ -28,23 +28,40 @@ h1 {
 
 .container {
     float:left;
-    width: 30%;
+    width: 200px;
+    text-align: left;
 }
 .phone-container {
     width: 132px;
     height: 400px;
- 
+    text-align: center;
     background: url('nokia6110-assets/background.png') no-repeat top left;
     background-size: contain;
     background-repeat: no-repeat;
     float:left;
+    position:relative;
+    margin-left:20px;
+}
+
+#numberdisplay {
+    top:191px;
+    left: 26px;
+    width: 80px;
+    height: 9px;
+    overflow: hidden;
+    position:absolute;
+    font-size: 8px;
+    font-family: "Press Start 2P", system-ui;
+    color:#2d3922;
+    font-style: normal;
+    filter: blur(0.5px);
 }
 .phone-button{
     cursor: hand;
     background-repeat: no-repeat;
     background-position: top left;
   
-    position:relative;
+    position:absolute;
     background-size:100%;    
 }
 #button1{
@@ -53,72 +70,86 @@ h1 {
     width: 27px;
     height: 17px;
     background-image: url('./nokia6110-assets/button01.png');
-    opacity:100%;
-    border:none;
 }
 #button2{
-    top:253px;
+    top:270px;
     left: 49px;
-    width: 29px;
+    width: 32px;
     height: 18px;
     background: url('./nokia6110-assets/button02.png');
 }   
 #button3{
-      top:237px;
+    top:272px;
     left: 89px;
     width: 29px;
     height: 18px;
     background: url('./nokia6110-assets/button03.png');
 }
 #button4{
-      top:243px;
+      top:296px;
     left: 15px;
     width: 26px;
     height: 18px;
     background: url('./nokia6110-assets/button04.png');
 }
 #button5{
-    top: 224px;
+    top: 295px;
     left: 47px;
     width: 41px;
     height: 22px;
     background: url('./nokia6110-assets/button05.png');
 }
 #button6{
-    top:202px;
+    top:295px;
     left: 86px;
     width: 31px;
     height: 19px;
     background: url('./nokia6110-assets/button06.png');
 }
 #button7{
-      top:207px;
+      top:319px;
     left: 15px;
     width: 25px;
     height: 18px;
     background: url('./nokia6110-assets/button07.png');
 }
 #button8{
-      top:189px;
+      top:319px;
     left: 48px;
     width: 33px;
     height: 19px;
     background: url('./nokia6110-assets/button08.png');
 }
 #button9{
-    top:170px;
+    top:319px;
     left: 89px;
     width: 27px;
     height: 17px;
     background: url('./nokia6110-assets/button09.png');
 }
 #button0{
-    top:171px;
+    top:338px;
     left: 47px;
     width: 34px;
     height: 23px;
     background: url('./nokia6110-assets/button00.png');
 }
+
+#button-hangup{
+    top:246px;
+    left: 85px;
+    width: 28px;
+    height: 23px;
+    background: url('./nokia6110-assets/button-hangup.png');
+}
+#button-call{
+    top:247px;
+    left: 20px;
+    width: 26px;
+    height: 23px;
+    background: url('./nokia6110-assets/button-call.png');
+}
+
 .pressed{
-    margin-top:2px;
+    margin-top:1px;
 }
