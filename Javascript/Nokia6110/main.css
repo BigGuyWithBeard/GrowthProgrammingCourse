@@ -47,10 +47,10 @@ h1 {
     top:191px;
     left: 26px;
     width: 80px;
-    height: 9px;
+    height: 10px;
     overflow: hidden;
     position:absolute;
-    font-size: 8px;
+    font-size: 7px;
     font-family: "Press Start 2P", system-ui;
     color:#2d3922;
     font-style: normal;
@@ -152,4 +152,19 @@ h1 {
 
 .pressed{
     margin-top:1px;
+}
+#help-text{
+    display:none;
+    border: thin solid black;
+    background: silver;
+    padding:5px;
+    font-size:12px;
+}
+
+#vibrate{
+    background-color: red;
+}
+.vibrate{
+    rotate:5deg;
+    transition: rotate 0.5sec;
 }
