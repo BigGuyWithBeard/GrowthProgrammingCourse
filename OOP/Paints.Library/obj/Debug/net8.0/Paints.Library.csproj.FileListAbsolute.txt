@@ -1,0 +1,12 @@
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\bin\Debug\net8.0\Paints.Library.deps.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\bin\Debug\net8.0\Paints.Library.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\bin\Debug\net8.0\Paints.Library.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.AssemblyInfoInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.AssemblyInfo.cs
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.csproj.CoreCompileInputs.cache
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.sourcelink.json
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\refint\Paints.Library.dll
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\Paints.Library.pdb
+C:\Users\lobo_\OneDrive\Documents\Repos\DevelopmentCourse\GrowthProgrammingCourse\OOP\Paints.Library\obj\Debug\net8.0\ref\Paints.Library.dll
